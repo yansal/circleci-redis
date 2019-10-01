@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.13.1
-      - image: circleci/redis
+      - image: circleci/redis:4.0.14
 
     steps:
       - checkout
